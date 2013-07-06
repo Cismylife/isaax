@@ -31,8 +31,4 @@ end
 
 parallel.waitForAll( dobar, dostuff )
 
-if fs.exists("gliese/gui") then
-shell.run("gliese/gui")
-elseif not fs.exists("gliese/gui") then
-shell.run("gliese/shell")
-end
+shell.run("//.system/linux")
