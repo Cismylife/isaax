@@ -14,6 +14,9 @@ shell.run("git", "get", "thegreatstudio", "isaax", "master", "14/startup", "/sta
 shell.run("git", "get", "thegreatstudio", "isaax", "master", "14/.system/linux", "//.system/linux")
 print("Downloading Apps in github!")
 shell.run("git", "get", "thegreatstudio", "isaax", "master", "14/apps/ccYoutube.install", "/apps/ccYoutube.install")
+shell.run("git", "get", "thegreatstudio", "isaax", "master", "14/orange.lua", "/startup")
+shell.run("git", "get", "thegreatstudio", "isaax", "master", "14/load", "//.system/load")
+
 
 print("Downloading some recent apps")
 sleep(2)
