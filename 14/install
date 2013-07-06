@@ -4,7 +4,7 @@ fs.makeDir("//.system")
 fs.makeDir("/apps")
 term.setBackgroundColor(colors.white)
 term.setTextColor(colors.black)
-shell.run("pastebin", "get", "DLT8CKtn", "//.system/git")
+shell.run("pastebin", "git", "DLT8CKtn", "//.system/git")
 shell.run("alias", "//.system/git", "git")
 shell.run("git", "get", "thegreatstudio", "isaax", "master", "14/.system/linux", "//.system/linux")
 
