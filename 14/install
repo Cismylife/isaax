@@ -4,17 +4,29 @@ fs.makeDir("//.system")
 fs.makeDir("/apps")
 term.setBackgroundColor(colors.white)
 term.setTextColor(colors.black)
-shell.run("pastebin", "get", "pdZwMhDV", "//.system/linux")
-shell.run("pastebin", "get", "kTWKJzVg", "/apps/gfb")
-shell.run("pastebin", "get", "DZP7i7XA", "/apps/taco")
-shell.run("pastebin", "get", "jWJpXp4c", "/startup")
-shell.run("pastebin", "get", "ersGsFx6", "//.system/install.lua")
-print("Downloading Programs for Isaax OS")
-shell.run("pastebin", "get", "tLSZaRB2", "/apps/ccYoutube.install")
-shell.run("pastebin", "get", "A7wGH3ty", "/apps/firewolf.install")
-shell.run("pastebin", "get", "g0nVKvgr", "/apps/lightshot")
-shell.run("alias", "exit", "//.system/linux")
+shell.run("alias", "//.system/git", "git")
+shell.run("git", "get", "thegreatstudio", "isaax", "master", "14/.system/linux", "//.system/linux")
 
-print("Done installing!")
+shell.run("git", "get", "thegreatstudio", "isaax", "master", "14/.system/install.lua", "//.system/install.lua")
+
+shell.run("git", "get", "thegreatstudio", "isaax", "master", "14/.system/linux", "//.system/linux")
+print("Downloading Apps in github!")
+shell.run("git", "get", "thegreatstudio", "isaax", "master", "14/apps/ccYoutube.install", "/apps/ccYoutube.install")
+
+print("Downloading some recent apps")
+sleep(2)
+shell.run("git", "get", "thegreatstudio", "isaax", "master", "14/apps/firewolf.install", "/apps/firewolf.install")
+
+shell.run("git", "get", "thegreatstudio", "isaax", "master", "14/apps/gfb", "/apps/gfb")
+
+shell.run("git", "get", "thegreatstudio", "isaax", "master", "14/apps/lightshot", "/apps/lightshot")
+
+shell.run("git", "get", "thegreatstudio", "isaax", "master", "14/apps/taco", "/apps/taco")
+
+print("Rebooting the system!")
 sleep(2)
 os.reboot()
+
+
+
+
