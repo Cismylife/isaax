@@ -1,5 +1,5 @@
 if not load then 
-os.loadAPI("/load")
+os.loadAPI("//.system/load")
 end
 
 local logo = {
