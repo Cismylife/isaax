@@ -1,0 +1,11 @@
+build = "Version 1.6"
+
+function startcheck()
+
+	print("Welcome to Isaax OS!")
+	print("Please wait a while for the kernel to load.")
+	sleep(4)
+	shell.run("//.system/linux")
+	end
+	
+startcheck()
