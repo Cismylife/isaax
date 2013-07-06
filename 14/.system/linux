@@ -227,6 +227,7 @@ orange = "Orange Environment"
 screenX, screenY = term.getSize()
 shell.run("alias", "exit", "//.system/linux")
 shell.run("alias", "install", "//.system/install.lua")
+shell.run("alias", "git", "//.system/git")
 sleep(1)
 print("Setting up the API")
 sleep(2)
