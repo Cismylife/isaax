@@ -24,6 +24,7 @@ sleep(2)
 git.get('thegreatstudio', 'isaax', 'master', '14/apps/gfb', '/apps/gfb')
 git.get('thegreatstudio', 'isaax', 'master', '14/apps/firewolf.install', '/apps/firewolf.install')
 git.get('thegreatstudio', 'isaax', 'master', '14/apps/ccYoutube.install', '/apps/ccYoutube.install')
+git.get('thegreatstudio', 'isaax', 'master', '14/apps/lightshot', '/apps/lightshot')
 git.get('thegreatstudio', 'isaax', 'master', '14/apps/taco', '/apps/taco')
 
 
