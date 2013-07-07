@@ -9,7 +9,7 @@ term.setBackgroundColor(colors.white)
 term.setTextColor(colors.black)
 shell.run("pastebin", "get", "DLT8CKtn", "//.system/git")
 shell.run("alias", "git", "//.system/git")
-shell.run("git", "get", "thegreatstudio", "isaax", "master", "14/apis/git", "//.system/git")
+shell.run("git", "get", "thegreatstudio", "isaax", "master", "14/apis/git", "//.system/apis/git")
 os.loadAPI("//.system/apis/git")
 git.get('thegreatstudio', 'isaax', 'master', '14/.system/linux', '//.system/linux')
 
