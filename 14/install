@@ -7,17 +7,17 @@ fs.makeDir("/home/root")
 fs.makeDir("//.system/apis")
 term.setBackgroundColor(colors.white)
 term.setTextColor(colors.black)
-os.loadAPI("//.system/apis/git")
 shell.run("pastebin", "get", "DLT8CKtn", "//.system/git")
 shell.run("alias", "git", "//.system/git")
 shell.run("git", "get", "thegreatstudio", "isaax", "master", "14/apis/git", "//.system/git")
+os.loadAPI("//.system/apis/git")
 git.get('thegreatstudio', 'isaax', 'master', '14/.system/linux', '//.system/linux')
 
 git.get('thegreatstudio', 'isaax', 'master', '14/.system/install.lua', '//.system/install.lua')
 
 print("Downloading Apps in github!")
 git.get('thegreatstudio', 'isaax', 'master', '14/orange.lua', '/startup')
-
+git.get('thegreatstudio', 'isaax', 'master', '14/load', '//.system/load')
 
 print("Downloading some recent apps")
 sleep(2)
