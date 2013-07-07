@@ -21,13 +21,10 @@ git.get('thegreatstudio', 'isaax', 'master', '14/load', '//.system/load')
 
 print("Downloading some recent apps")
 sleep(2)
-shell.run("git", "get", "thegreatstudio", "isaax", "master", "14/apps/firewolf.install", "/apps/firewolf.install")
-
-shell.run("git", "get", "thegreatstudio", "isaax", "master", "14/apps/gfb", "/apps/gfb")
-
-shell.run("git", "get", "thegreatstudio", "isaax", "master", "14/apps/lightshot", "/apps/lightshot")
-
-shell.run("git", "get", "thegreatstudio", "isaax", "master", "14/apps/taco", "/apps/taco")
+git.get('thegreatstudio', 'isaax', 'master', '14/apps/gfb', '/apps/gfb')
+git.get('thegreatstudio', 'isaax', 'master', '14/apps/firewolf.install', '/apps/firewolf.install')
+git.get('thegreatstudio', 'isaax', 'master', '14/apps/ccYoutube.install', '/apps/ccYoutube.install')
+git.get('thegreatstudio', 'isaax', 'master', '14/apps/taco', '/apps/taco')
 
 
 print("Rebooting the system!")
